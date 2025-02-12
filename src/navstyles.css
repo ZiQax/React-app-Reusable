@@ -1,0 +1,19 @@
+
+.navbar-nav .avatar-button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.navbar-nav .avatar-button img {
+  width: 30px; /* Sesuaikan ukuran avatar */
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.user-info-modal .modal-content{
+   text-align: center;
+}

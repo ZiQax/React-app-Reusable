@@ -1,0 +1,125 @@
+/* Container Video Cards */
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+
+}
+
+/* Video Card */
+.video-card {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.video-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Video Thumbnail */
+.video-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Card Content */
+.video-card .card-body {
+  padding: 2px;
+}
+
+/* Title */
+.video-card h5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Description */
+.video-card .card-text {
+  font-size: 0.9rem;
+  color: #666;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Rating & Price Section */
+.video-card .rating-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Rating */
+.video-card .rating {
+  font-size: 0.9rem;
+  color: #f39c12;
+  font-weight: bold;
+}
+
+/* Price */
+.video-card .price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.video-card .old-price {
+  font-size: 0.8rem;
+  color: #999;
+  text-decoration: line-through;
+}
+
+/* Button */
+.video-card .buy-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #ff6600;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 6px;
+  transition: background 0.3s ease-in-out;
+}
+
+.video-card .buy-btn:hover {
+  background-color: #e65c00;
+}
+
+@media screen and (max-width: 1024px) {
+  .video-card {
+    width: 45%;
+    padding: 0;
+  }
+  
+}
+
+
+@media screen and (max-width: 866px) {
+  .video-card {
+    width: 100%;
+    
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .video-card {
+    width: 100%;
+  }
+}

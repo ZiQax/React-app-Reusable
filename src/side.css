@@ -1,0 +1,21 @@
+/* styles.css */
+.toggle-btn {
+    background-color: #4CAF50;  /* Hijau */
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #45a049; /* Hijau lebih gelap */
+    transform: scale(1.1); /* Efek pembesaran */
+  }
+  
+  .toggle-btn:focus {
+    outline: none;
+  }
+  

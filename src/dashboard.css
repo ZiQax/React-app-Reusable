@@ -53,7 +53,7 @@ color: #28a745;
   flex-wrap: wrap;
   /* Add max-width and margin to make the content centered*/
   max-width: 1200px; /* Adjust this value as needed */
-  margin: 0 auto;  /* center the container */
+  margin: 0;  /* center the container */
 }
 
 .video-card-container {
@@ -235,7 +235,7 @@ color: #007bff;
 }
 
 /* Responsive adjustments */
-@media (min-width: 1400px) {
+@media (max-width: 1400px) {
    .header-card .card-title {
       font-size: 2.2rem;
   }
